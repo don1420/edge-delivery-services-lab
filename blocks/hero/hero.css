@@ -37,3 +37,27 @@ main .hero img {
   width: 100%;
   height: 100%;
 }
+
+main .hero .content {
+  text-align: center;
+  max-width: 1200px;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main .hero .content .separator {
+  width: 128px;
+  height: 5px;
+  display: block;
+  content: "";
+  background-color: #ffc719;
+  transition: width .4s ease-in-out;
+  margin: auto;
+}
+
+main. hero {
+  height: 100vh;
+}
