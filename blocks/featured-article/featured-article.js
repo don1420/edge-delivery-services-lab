@@ -7,7 +7,7 @@ import getMetadata from '../../scripts/lib-franklin.js';
  * @returns {Document} The document
  */
 async function loadFragment(path) {
-  if (path && path.startsWith('http')) {
+    if (path && path.startsWith('http')) {
     const resp = await fetch(path);
     if (resp.ok) {
       const parser = new DOMParser();
